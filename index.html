@@ -1,0 +1,625 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio | Dmytro Orlenko</title>
+		<meta
+			name="description"
+			content="Front-end portfolio of Dmytro Orlenko: responsive interfaces, modern animations, and selected web projects."
+		/>
+		<meta name="robots" content="index, follow" />
+		<meta name="theme-color" content="#0b0f14" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Portfolio | Dmytro Orlenko" />
+		<meta
+			property="og:description"
+			content="Front-end portfolio with selected projects, tech stack and social links."
+		/>
+		<meta property="og:image" content="img/wevv-preview.jpg" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="Portfolio | Dmytro Orlenko" />
+		<meta
+			name="twitter:description"
+			content="Front-end portfolio with selected projects, tech stack and social links."
+		/>
+		<meta name="twitter:image" content="img/wevv-preview.jpg" />
+		<link rel="icon" type="image/svg+xml" href="img/site-icon.svg" />
+		<link rel="shortcut icon" href="img/site-icon.svg" />
+		<link rel="manifest" href="site.webmanifest" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+
+	<body>
+		<div class="page-shell">
+			<div class="lang-switcher" id="langSwitcher">
+				<button
+					class="lang-btn lang-btn--en is-active"
+					data-lang="en"
+					aria-label="English"
+				>
+					ENG
+				</button>
+				<button
+					class="lang-btn lang-btn--uk"
+					data-lang="uk"
+					aria-label="Українська"
+				>
+					UKR
+				</button>
+				<button
+					class="lang-btn lang-btn--pl"
+					data-lang="pl"
+					aria-label="Polski"
+				>
+					PL
+				</button>
+			</div>
+			<main class="layout" id="home">
+				<section class="top-row">
+					<article class="card hero-card" id="about">
+						<!-- <p class="card-label">Hero</p> -->
+						<div class="hero-card__image" aria-hidden="true"></div>
+						<div class="hero-card__overlay"></div>
+						<div class="hero-card__content">
+							<h1>Hey, I am Dmytro Orlenko</h1>
+							<p>
+								I craft clean, modern web experiences with focus on performance
+								and intuitive design.
+							</p>
+						</div>
+					</article>
+
+					<aside class="card stack-card" id="stack">
+						<p class="card-label">Tech Stack</p>
+						<div class="stack-list">
+							<span class="stack-item stack-item--html">
+								<img
+									class="stack-icon"
+									src="img/icons/html.png"
+									alt=""
+									aria-hidden="true"
+								/>
+								HTML5
+							</span>
+							<span class="stack-item stack-item--css">
+								<img
+									class="stack-icon"
+									src="img/icons/css.png"
+									alt=""
+									aria-hidden="true"
+								/>
+								CSS3
+							</span>
+							<span class="stack-item stack-item--js">
+								<img
+									class="stack-icon"
+									src="img/icons/js.png"
+									alt=""
+									aria-hidden="true"
+								/>
+								JavaScript
+							</span>
+							<span class="stack-item stack-item--ts">
+								<img
+									class="stack-icon"
+									src="img/icons/typescript.png"
+									alt=""
+									aria-hidden="true"
+								/>
+								TypeScript
+							</span>
+							<span class="stack-item stack-item--react">
+								<img
+									class="stack-icon"
+									src="img/icons/react.png"
+									alt=""
+									aria-hidden="true"
+								/>
+								React
+							</span>
+							<span class="stack-item stack-item--tailwind">
+								<img
+									class="stack-icon"
+									src="img/icons/tailwind.png"
+									alt=""
+									aria-hidden="true"
+								/>
+								Tailwind
+							</span>
+							<span class="stack-item stack-item--node">
+								<img
+									class="stack-icon"
+									src="img/icons/node.png"
+									alt=""
+									aria-hidden="true"
+								/>
+								Node.js
+							</span>
+							<span class="stack-item stack-item--git">
+								<img
+									class="stack-icon"
+									src="img/icons/git.png"
+									alt=""
+									aria-hidden="true"
+								/>
+								Git
+							</span>
+							<span class="stack-item stack-item--figma">
+								<img
+									class="stack-icon"
+									src="img/icons/figma.png"
+									alt=""
+									aria-hidden="true"
+								/>
+								Figma
+							</span>
+							<span class="stack-item stack-item--vite">
+								<img
+									class="stack-icon"
+									src="img/icons/vite.png"
+									alt=""
+									aria-hidden="true"
+								/>
+								Vite
+							</span>
+						</div>
+					</aside>
+				</section>
+
+				<section class="lower-grid">
+					<aside class="card social-card" aria-label="Social Links">
+						<p class="card-label">Socials</p>
+						<ul class="social-list">
+							<li>
+								<a
+									class="social-link social-link--github"
+									href="https://github.com/eternalstoneinside"
+									target="_blank"
+									rel="noreferrer"
+									aria-label="GitHub"
+								>
+									<img
+										class="social-icon"
+										src="img/icons/github.svg"
+										alt=""
+										aria-hidden="true"
+									/>
+									<span class="sr-only">GitHub</span>
+								</a>
+							</li>
+							<li>
+								<a
+									class="social-link social-link--linkedin"
+									href="https://www.linkedin.com/in/eternalstoneinside/"
+									target="_blank"
+									rel="noreferrer"
+									aria-label="LinkedIn"
+								>
+									<img
+										class="social-icon"
+										src="img/icons/linkedin.svg"
+										alt=""
+										aria-hidden="true"
+									/>
+									<span class="sr-only">LinkedIn</span>
+								</a>
+							</li>
+							<li>
+								<a
+									class="social-link social-link--facebook"
+									href="https://www.facebook.com/orlenko.dmytro?locale=pl_PL"
+									target="_blank"
+									rel="noreferrer"
+									aria-label="Facebook"
+								>
+									<img
+										class="social-icon"
+										src="img/icons/facebook.svg"
+										alt=""
+										aria-hidden="true"
+									/>
+									<span class="sr-only">Facebook</span>
+								</a>
+							</li>
+							<li>
+								<a
+									class="social-link social-link--instagram"
+									href="https://instagram.com/eternalstoneinside"
+									target="_blank"
+									rel="noreferrer"
+									aria-label="Instagram"
+								>
+									<img
+										class="social-icon"
+										src="img/icons/instagram.svg"
+										alt=""
+										aria-hidden="true"
+									/>
+									<span class="sr-only">Instagram</span>
+								</a>
+							</li>
+							<li>
+								<a
+									class="social-link social-link--telegram"
+									href="https://telegram.me/eternalstoneoutside"
+									target="_blank"
+									rel="noreferrer"
+									aria-label="Telegram"
+								>
+									<img
+										class="social-icon"
+										src="img/icons/telegram.svg"
+										alt=""
+										aria-hidden="true"
+									/>
+									<span class="sr-only">Telegram</span>
+								</a>
+							</li>
+							<li>
+								<a
+									class="social-link social-link--whatsapp"
+									href="https://wa.me/48576173843"
+									target="_blank"
+									rel="noreferrer"
+									aria-label="WhatsApp"
+								>
+									<img
+										class="social-icon"
+										src="img/icons/whatsapp.svg"
+										alt=""
+										aria-hidden="true"
+									/>
+									<span class="sr-only">WhatsApp</span>
+								</a>
+							</li>
+						</ul>
+					</aside>
+
+					<aside class="card about-card" id="contact">
+						<p class="card-label">About</p>
+						<p class="about-summary">
+							Front-end developer creating responsive, modern web experiences.
+						</p>
+					</aside>
+
+					<section
+						class="card projects-card"
+						id="projects"
+						aria-label="Projects"
+					>
+						<div class="projects-card__head">
+							<p class="card-label">Projects</p>
+							<div class="carousel-controls">
+								<button
+									class="carousel-btn"
+									type="button"
+									data-carousel="prev"
+									aria-label="Previous slide"
+								>
+									‹
+								</button>
+								<button
+									class="carousel-btn"
+									type="button"
+									data-carousel="next"
+									aria-label="Next slide"
+								>
+									›
+								</button>
+							</div>
+						</div>
+						<div class="carousel" aria-live="polite">
+							<div class="carousel__track">
+								<article class="slide slide--one">
+									<div class="slide__media">
+										<a
+											class="project-preview-link"
+											href="https://eternalstoneinside.github.io/Wevv/"
+											target="_blank"
+											rel="noreferrer noopener"
+											aria-label="Open Wevv website"
+										>
+											<img
+												class="project-preview-image"
+												src="img/wevv-preview.jpg"
+												alt="Preview of Wevv Lite website"
+												loading="lazy"
+											/>
+										</a>
+									</div>
+									<div class="slide__body">
+										<h3>
+											<a
+												class="project-title-link"
+												href="https://eternalstoneinside.github.io/Wevv/"
+												target="_blank"
+												rel="noreferrer noopener"
+											>
+												Wevv
+											</a>
+										</h3>
+										<p>
+											Wavv Lite is a lightweight browser speed and stability
+											test that measures latency, jitter and download speed in
+											real time.
+										</p>
+										<a
+											class="project-link"
+											href="https://github.com/eternalstoneinside/Wevv"
+											target="_blank"
+											rel="noreferrer noopener"
+										>
+											View on GitHub
+										</a>
+									</div>
+								</article>
+								<article class="slide slide--two">
+									<div class="slide__media">
+										<a
+											class="project-preview-link"
+											href="https://eternalstoneinside.github.io/Productivio/"
+											target="_blank"
+											rel="noreferrer noopener"
+											aria-label="Open Productivio website"
+										>
+											<img
+												class="project-preview-image"
+												src="img/productivio-preview.png"
+												alt="Preview of Productivio website"
+												loading="lazy"
+											/>
+										</a>
+									</div>
+									<div class="slide__body">
+										<h3>
+											<a
+												class="project-title-link"
+												href="https://eternalstoneinside.github.io/Productivio/"
+												target="_blank"
+												rel="noreferrer noopener"
+											>
+												Productivio
+											</a>
+										</h3>
+										<p>
+											Productivity web app with task board, notes, Pomodoro
+											timer and mood tracker in one dashboard.
+										</p>
+										<a
+											class="project-link"
+											href="https://github.com/eternalstoneinside/Productivio"
+											target="_blank"
+											rel="noreferrer noopener"
+										>
+											Code on GitHub
+										</a>
+									</div>
+								</article>
+								<article class="slide slide--three">
+									<div class="slide__media">
+										<a
+											class="project-preview-link"
+											href="https://eternalstoneinside.github.io/aimgame/"
+											target="_blank"
+											rel="noreferrer noopener"
+											aria-label="Open AIM Game website"
+										>
+											<img
+												class="project-preview-image"
+												src="img/aimgame-preview.png"
+												alt="Preview of AIM Game website"
+												loading="lazy"
+											/>
+										</a>
+									</div>
+									<div class="slide__body">
+										<h3>
+											<a
+												class="project-title-link"
+												href="https://eternalstoneinside.github.io/aimgame/"
+												target="_blank"
+												rel="noreferrer noopener"
+											>
+												AIM Game
+											</a>
+										</h3>
+										<p>
+											Browser aim trainer with time modes, difficulty levels,
+											hit accuracy tracking and ranked mode.
+										</p>
+										<a
+											class="project-link"
+											href="https://github.com/eternalstoneinside/aimgame"
+											target="_blank"
+											rel="noreferrer noopener"
+										>
+											Code on GitHub
+										</a>
+									</div>
+								</article>
+								<article class="slide slide--four">
+									<div class="slide__media">
+										<a
+											class="project-preview-link"
+											href="https://eternalstoneinside.github.io/lovee/"
+											target="_blank"
+											rel="noreferrer noopener"
+											aria-label="Open Lovee website"
+										>
+											<img
+												class="project-preview-image"
+												src="img/lovee-preview.jpg"
+												alt="Preview of Lovee website"
+												loading="lazy"
+											/>
+										</a>
+									</div>
+									<div class="slide__body">
+										<h3>
+											<a
+												class="project-title-link"
+												href="https://eternalstoneinside.github.io/lovee/"
+												target="_blank"
+												rel="noreferrer noopener"
+											>
+												Lovee
+											</a>
+										</h3>
+										<p>
+											Romantic flower delivery landing with catalog sections,
+											composition picks, booking flow and checkout screens.
+										</p>
+										<a
+											class="project-link"
+											href="https://github.com/eternalstoneinside/lovee"
+											target="_blank"
+											rel="noreferrer noopener"
+										>
+											Code on GitHub
+										</a>
+									</div>
+								</article>
+								<article class="slide slide--five">
+									<div class="slide__media">
+										<a
+											class="project-preview-link"
+											href="https://eternalstoneinside.github.io/dzherelorestaurant/"
+											target="_blank"
+											rel="noreferrer noopener"
+											aria-label="Open Dzherelo Restaurant website"
+										>
+											<img
+												class="project-preview-image"
+												src="img/dzherelo-preview.png"
+												alt="Preview of Dzherelo Restaurant website"
+												loading="lazy"
+											/>
+										</a>
+									</div>
+									<div class="slide__body">
+										<h3>
+											<a
+												class="project-title-link"
+												href="https://eternalstoneinside.github.io/dzherelorestaurant/"
+												target="_blank"
+												rel="noreferrer noopener"
+											>
+												Dzherelo Restaurant
+											</a>
+										</h3>
+										<p>
+											Cafe-restaurant website with menu highlights, pizza
+											section, gallery, map and table reservation flow.
+										</p>
+										<a
+											class="project-link"
+											href="https://github.com/eternalstoneinside/dzherelorestaurant"
+											target="_blank"
+											rel="noreferrer noopener"
+										>
+											Code on GitHub
+										</a>
+									</div>
+								</article>
+								<article class="slide slide--six">
+									<div class="slide__media">
+										<a
+											class="project-preview-link"
+											href="https://eternalstoneinside.github.io/Bridge/"
+											target="_blank"
+											rel="noreferrer noopener"
+											aria-label="Open Bridge website"
+										>
+											<img
+												class="project-preview-image"
+												src="img/bridge-preview.jpg"
+												alt="Preview of Bridge website"
+												loading="lazy"
+											/>
+										</a>
+									</div>
+									<div class="slide__body">
+										<h3>
+											<a
+												class="project-title-link"
+												href="https://eternalstoneinside.github.io/Bridge/"
+												target="_blank"
+												rel="noreferrer noopener"
+											>
+												Bridge
+											</a>
+										</h3>
+										<p>
+											Debit card promo landing with earning mechanics,
+											step-by-step onboarding and app download CTA flow.
+										</p>
+										<a
+											class="project-link"
+											href="https://github.com/eternalstoneinside/Bridge"
+											target="_blank"
+											rel="noreferrer noopener"
+										>
+											Code on GitHub
+										</a>
+									</div>
+								</article>
+							</div>
+						</div>
+						<div
+							class="carousel-dots"
+							role="tablist"
+							aria-label="Slide selector"
+						>
+							<button
+								class="dot is-active"
+								type="button"
+								data-slide="0"
+								aria-label="Slide 1"
+							></button>
+							<button
+								class="dot"
+								type="button"
+								data-slide="1"
+								aria-label="Slide 2"
+							></button>
+							<button
+								class="dot"
+								type="button"
+								data-slide="2"
+								aria-label="Slide 3"
+							></button>
+							<button
+								class="dot"
+								type="button"
+								data-slide="3"
+								aria-label="Slide 4"
+							></button>
+							<button
+								class="dot"
+								type="button"
+								data-slide="4"
+								aria-label="Slide 5"
+							></button>
+							<button
+								class="dot"
+								type="button"
+								data-slide="5"
+								aria-label="Slide 6"
+							></button>
+						</div>
+					</section>
+				</section>
+			</main>
+		</div>
+
+		<script src="js/main.js" defer></script>
+	</body>
+</html>
